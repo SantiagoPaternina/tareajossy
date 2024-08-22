@@ -1,0 +1,8 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 20%; /* Ajusta el ancho según tus necesidades */
+    border: 1px solid black; /* Opcional: agrega un borde para visualizar el cuadro */
+    padding: 20px;
+}

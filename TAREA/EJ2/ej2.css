@@ -1,0 +1,21 @@
+.principal{
+    width: 400px; /*ANCHO DE LA CAJA*/
+}
+.container-1,
+.container-2,
+.container-3,
+.container-4 {
+    display: flex;
+    background-color: gray;
+    justify-content: space-between; /*SOLO VA EN LLAVE PRINCIPAL*/
+    margin: 3px; /*SEPARAR CUADROS*/
+    padding: 10px; /*SEPARAR CONTENIDO DEL MARCO*/
+}
+.container-1 a,
+.container-2 a,
+.container-3 a,
+.container-4 a{
+    background-color: white;
+    color: #000;
+    text-decoration: none; /*QUITAR LA LINEA AL TEXTO*/
+}
